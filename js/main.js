@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     btns_operations.forEach(btn =>{
         btn.addEventListener("click", ()=>{
-            operation(btn.innerHTML);
+            operation(btn.value);
         })
     })
 
@@ -91,6 +91,4 @@ document.addEventListener("DOMContentLoaded", ()=>{
         if(txt_result.innerHTML.length < 14)
             txt_result.innerHTML = value;
     }
-
-    console.log(window.innerHeight, window.innerWidth)
 });
