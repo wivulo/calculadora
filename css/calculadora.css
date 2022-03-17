@@ -6,12 +6,14 @@
 .sheet{
     width: 290px;
     height: 65%;
+    border-radius: 10px;
 }
 
 .header{
     width: 90%;
     height: 18%;
     padding: 0 10px;
+    border-bottom: 1px solid #333;
 }
 
 .txt-1{
