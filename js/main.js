@@ -92,4 +92,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
             txt_result.innerHTML = value;
     }
 
+    console.log(window.innerHeight, window.innerWidth)
 });

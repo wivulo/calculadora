@@ -47,7 +47,7 @@
     justify-content: space-around;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 800px) and (max-height: 1000px) {
 
     .section{
         height: 75%;
@@ -68,7 +68,88 @@
     }
 }
 
-@media (max-width: 414px) and (max-height: 896px) {
+@media (max-width: 800px) and (max-height: 1000px){
+    .txt-1{
+        font-size: 45px
+    }
+
+    .section-content{
+        width: 80%;
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+        gap: 15px;
+    }
+
+    .btn{
+        width: 100px;
+        height: 100px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 792px) and (max-height: 819px) {
+    .section-content{
+        width: 65%;
+        height: 90%;
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(5.9rem, 1fr));
+        gap: 10px;
+    }
+
+    .btn{
+        width: 93px;
+        height: 93px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 699px) and (max-height: 1000px){
+    .txt-1{
+        font-size: 45px
+    }
+
+    .section-content{
+        width: 65%;
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        gap: 15px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 605px) and (max-height: 1000px){
+    .txt-1{
+        font-size: 45px
+    }
+
+    .section-content{
+        width: 80%;
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        gap: 15px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 490px) and (max-height: 1000px){
     .txt-1{
         font-size: 45px
     }
@@ -85,7 +166,7 @@
     }
 }
 
-@media (max-width: 412px) and (max-height: 915px) {
+@media (max-width: 414px) and (max-height: 1000px) {
     .txt-1{
         font-size: 45px
     }
@@ -102,7 +183,24 @@
     }
 }
 
-@media (max-width: 375px) and (max-height: 667px) {
+@media (max-width: 412px) and (max-height: 1000px) {
+    .txt-1{
+        font-size: 45px
+    }
+
+    .grid{
+        grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+        gap: 15px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 375px) and (max-height: 1000px) {
     .txt-1{
         font-size: 40px
     }
